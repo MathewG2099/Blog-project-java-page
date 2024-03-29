@@ -5,8 +5,29 @@ a {
     font-family:Arial, Helvetica, sans-serif ;
     font-weight: 700;
     border-radius: 10px;
-    margin: 150px 130px;
-    padding: 15px 30px;
+    margin-top: 0;
+    padding: 7px 30px;
     background-color: #fff ;
     text-decoration: none;
 }
+.post{
+    border: 1px solid ;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px ;
+    
+
+}
+
+.post h2 {
+    margin-top: 0;
+}
+.post-meta {
+font: size 0.8em;
+margin-top: 10px;
+}
+
+ body.dark {
+color: #fff;
+margin:50px black ;
+ }
