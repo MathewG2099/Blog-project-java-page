@@ -20,13 +20,13 @@
     background: none;
     border: none;
     border-bottom: 1px solid;
-    color:black;
+    
 }
 
 .form textarea {
     height: 150px;
     background: none;
-    color:black;
+    
     padding: 1.5em;
     border: 1px solid ;
 }
@@ -42,3 +42,12 @@
     color: #fff;
 }
 
+body.dark {
+    color: #fff;
+    margin:50px black ;
+    text-decoration-color: #fff;
+     }
+    
+form.dark {
+    color: #fff;
+}
