@@ -1,0 +1,44 @@
+.post{
+    border: 1px solid ;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px ;
+    
+
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+}
+
+
+.form input {
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid;
+    color:black;
+}
+
+.form textarea {
+    height: 150px;
+    background: none;
+    color:black;
+    padding: 1.5em;
+    border: 1px solid ;
+}
+
+.btn-submit {
+    padding: 10px 20px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    background-color: black;
+    cursor: pointer;
+    box-shadow: 2px 3px 12px -5px rgba(102, 231,200,.69);
+    color: #fff;
+}
+

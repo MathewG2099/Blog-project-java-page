@@ -5,16 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./my-blog/Assets/css/style.css">
-    <script src="https://kit.fontawesome.com/49c5a8931d.js" crossorigin="anonymous"></script>    
+    <script src="https://kit.fontawesome.com/49c5a8931d.js" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="./my-blog/Assets/css/form.css">   
 </head>
 <body>
     <h1>Whats on your mind ?</h1>
-    
+    <header class="header">
     <button class="switch" id="switch">
         <span><i class="fa-solid fa-sun"></i></span>
         <span><i class="fa-solid fa-moon"></i></span>
         <!--use of font awesome for the moon and the sun button --> 
+</header>        
     </button>
+    <main class="container">
+
+        <section class="post">
+            <h2 class="post">Blog Title</h2>
+            <p class="post">Here is my content</p>
+            <div class="post-meta">  
+            </div>
+        </section>
+        <div class="form-container">
+            <form id="myForm" class="form" onsubmit="saveFormData(event)">
+                <h1>Username</h1>
+                <input type="text" id="username">
+                <h2>Title</h2>
+                <input type="text" id="title">
+                <h3>Content</h3>
+                <textarea id="content"></textarea>
+                <button type="submit" class="btn-submit">Send message</button>
+            </form>
+        </div>
+
     <script src="./my-blog/js/blog.js"></script>
+    <script src="./my-blog/js/forms.js"> </script>
 </body>
 </html>
