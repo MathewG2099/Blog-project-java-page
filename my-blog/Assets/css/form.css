@@ -45,9 +45,13 @@
 body.dark {
     color: #fff;
     margin:50px black ;
-    text-decoration-color: #fff;
+    
      }
     
 form.dark {
+    color: #fff;
+
+}
+title.dark{
     color: #fff;
 }
